@@ -44,7 +44,7 @@ The enforce/monitor examples enable the following rules:
 
 1. In AI Defense, create an **Application** of type **API**.
 2. Add a connection and copy the generated API key.
-3. **API modes:** Do _not_ apply a policy to the connection — enforcement is controlled in the SDK config.
+3. **API modes:** Only apply a policy to the connection in monitor mode, not the connection used for enforce mode — enforcement is controlled in the SDK config.
 4. **Gateway mode:** Apply your desired policy to the connection in AI Defense.
 
 ---
